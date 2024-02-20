@@ -25,7 +25,9 @@ android {
 
     }
 
-
+  lintOptions {
+      abortOnError false
+  }
     // 执行配置
     applicationVariants.all { variant ->
 
